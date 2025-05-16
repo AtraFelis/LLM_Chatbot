@@ -1,2 +1,5 @@
+### 개발 환경 구축
 
-인공지능 응용 과목 원격 저장소소
+1. Github Repository 생성
+2. VSCode Repositoyr 불러오기
+3. 가상환경 구축
