@@ -32,6 +32,6 @@ prompt = ChatPromptTemplate.from_messages([
 chain = prompt | llm
 
 # 5. Chain 실행
-question = "내 이름은 송채선이야"
+question = "안녕. 내 이름은 송채선이야"
 result = chain.invoke({"question": question})
-print(result)
+print(result.content)
